@@ -41,6 +41,7 @@ A feedforward neural network is constructed that is catered for regression probl
 The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 24, with a training MAE of 736 and validation MAE of 535. The two figures below show the graph of the training process, indicating the convergence of model training.
 
 ![loss_graph](https://user-images.githubusercontent.com/95268200/176732761-220d7f9c-5f1a-4667-8e82-d7e274eeca4d.PNG)
+
 ![mae_graph](https://user-images.githubusercontent.com/95268200/176732767-98ef4432-5734-4dba-8380-51e2c6d918e3.PNG)
 
 4. Results
