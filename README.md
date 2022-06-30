@@ -42,7 +42,8 @@ The model is trained with a batch size of 64 and for 100 epochs. Early stopping 
 
 ![loss_graph](https://user-images.githubusercontent.com/95268200/176732761-220d7f9c-5f1a-4667-8e82-d7e274eeca4d.PNG)
 
-![mae_graph](https://user-images.githubusercontent.com/95268200/176732767-98ef4432-5734-4dba-8380-51e2c6d918e3.PNG)
+![mae_graph](https://user-images.githubusercontent.com/95268200/176733795-385b658a-084f-4f41-9f25-acdff06b3f6b.PNG)
+
 
 4. Results
 
