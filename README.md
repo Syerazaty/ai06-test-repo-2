@@ -36,25 +36,21 @@ The data is first loaded and preprocessed, such that unwanted features are remov
 
 A feedforward neural network is constructed that is catered for regression problem. The structure of the model is fairly simple. Figure below shows the structure of the model.
 
-
-
-
+![model](https://user-images.githubusercontent.com/95268200/176732656-647d33f5-4ce5-4a75-ae4e-b00e5589b82d.png)
 
 The model is trained with a batch size of 64 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 37, with a training MAE of 736 and validation MAE of 535. The two figures below show the graph of the training process, indicating the convergence of model training.
 
-![loss_graph](https://user-images.githubusercontent.com/95268200/176451948-f329da46-7173-4943-aa04-c079f9857c96.PNG)
-
-![mae_graph](https://user-images.githubusercontent.com/95268200/176452085-5bb8840f-3dcc-47c7-a5c5-c62e7fc18502.PNG)
+![loss_graph](https://user-images.githubusercontent.com/95268200/176732761-220d7f9c-5f1a-4667-8e82-d7e274eeca4d.PNG)
+![mae_graph](https://user-images.githubusercontent.com/95268200/176732767-98ef4432-5734-4dba-8380-51e2c6d918e3.PNG)
 
 4. Results
 
 The model are tested with test data. The evaluation result is shown in figure below.
 
-![test_result](https://user-images.githubusercontent.com/95268200/176452181-02a01d66-5c8c-4495-9d8d-8dd425d26e9e.PNG)
+![test_result](https://user-images.githubusercontent.com/95268200/176732845-ecc9e88c-2462-4673-999b-491a199356b6.PNG)
 
 The model is also used to made prediction with test data. A graph of prediction vs label is plotted, as shown in the image below.
 
-
-![result](https://user-images.githubusercontent.com/95268200/176452135-1793f140-3365-482b-a914-dbbbfcbe68ca.png)
+![result](https://user-images.githubusercontent.com/95268200/176732906-931d7c99-4730-4917-8086-2d970a56d3b2.png)
 
 Based on the graph, a clear trendline of y=x can be seen, indicating the predictions are fairly similar as labels. However, several outliers can be seen in the graph.
