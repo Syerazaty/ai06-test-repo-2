@@ -2,7 +2,7 @@ Garment Worker Productivity Prediction Using Feedforward Neural Network
 
 1. Summary
 
-The goal of this project is to predict the productivity 0f worker, based on the following features:
+The goal of this project is to predict the employees' productivity, based on the following features:
 
 - date
 - quarter
